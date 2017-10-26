@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Styles -->
+    <link href="css/bulma.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link href="pokeball/pokeball.css" rel="stylesheet">
 
+    <script src="js/handlebars-v4.0.11.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
+
+
 </head>
 
 <body>
     <header class="col-md-12">
 
     	<!-- TITTLE -->
-        <div class="logo">
-            <h1>PokeAPI</h1>
-        </div>
-
+        <h1 class="logo">PokeAPI</h1>
+        
+        
+        
+        
         <!-- SEARCH PANEL -->
         <nav>
             <input id="id" type="text" placeholder="introduce pokemon ID"/> 
@@ -26,14 +32,45 @@
 
             <input id="type" placeholder="introduce pokemon type" />
             <button id="type_button" type="submit" class="btn btn-default">GET POKEMON TYPES</button>
+
+            <a id="remove" class="button is-danger">Remove</a>
         </nav>
     </header>
 
     <!-- RENDER VIEW CARDS -->
-    <article></article>
+    <article>
+    	<div id="cardsBoard"></div>
+
+    </article>
+    <div id="containerPokeball"></div>
+
+    <script type="text/x-handlebars-template" 
+		id="template">
+	
+		{{# each Baers}}
+		<div class="cartapokemon">
+
+		  <p>Name is : {{ Name }} </p>
+		  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		  
+		</div>
+		{{/each}}
+	</script>
 
     <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/127738/OrbitControls.js"></script>
+
     <script src="js/index.js"></script>
+    <script src="pokeball/pokeball.js"></script>
+    
+    
+    
 </body>
 
 </html>

@@ -2,3 +2,13 @@
 .done {
 	background-color: blue;
 }
+
+#cardsBoard {
+	display: block;
+	width: 100%;
+}
+
+.cartapokemon {
+	width: 280px;
+	display: inline-grid;
+}
