@@ -1,13 +1,6 @@
-// js/index.js
-/*var person = {
-    firstName: "Christophe",
-    lastName: "Coenraets",
-    blogURL: "http://coenraets.org"
-};
-var template = "<h1>{{firstName}} {{lastName}}</h1>Blog: {{blogURL}}";
-var html = Mustache.to_html(template, person);
-$('#sampleArea').html(html);*/
 
+//GLOBAL VARIABLES
+var rootAPI= 'http://pokeapi.salestock.net/api/v2/';
 
 var cardTemplate ="<div id='{{id}}' class='cartaPokemon'>" +
 						"<figure class='containerImage'>" + 
@@ -16,15 +9,22 @@ var cardTemplate ="<div id='{{id}}' class='cartaPokemon'>" +
 						"<h2>Numero {{id}}</h2>" +
 					 	"<h1>I am: {{ name }}</h1>" +
 					"</div>";
-					
-function cardBuilder (template, data) {
+
+//HELPERS
+function displayCard (template, data) {
 	var html = Mustache.to_html(template, data);
 	$('#cardsBoard').append(html);
 }
 
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
-//GLOBAL VARIABLES
-var rootAPI= 'http://pokeapi.salestock.net/api/v2/';
+
+
+
+
+
 
 //READ API
 function sendRequest(endpoint, successFunction) {
@@ -49,7 +49,6 @@ function sendRequest(endpoint, successFunction) {
 };
 
 
-
 /*function 
 	$.ajax({
 	  method: "POST",
@@ -72,22 +71,43 @@ function sendRequest(endpoint, successFunction) {
 
 
 //EVENTS
-
+//Show just one card by ID or NAME.
 $('#id_button').on("click", function() {
     //$('.row.first').remove() // reset panel
-    var pokemon_id = $('#id').val();
-    var endpoint = "pokemon/" + pokemon_id + "/"; //Adds the query 
+    var idorName = $('#id').val();
+    var endpoint = "pokemon/" + idorName + "/"; //Adds the query 
     //request.open('GET', new_url, true); //javascript open request
     //request.send(); // javascript request send
     //input = 1;
     sendRequest(endpoint, function (response) {
-    	console.log(response);
-    	cardBuilder(cardTemplate, response);
+    	displayCard(cardTemplate, response);
     });
 });
 
+var x = [];
+//Show 10 cards by type.
+$('#type_button').on("click", function() {
+	var pokemonType = $('#type').val();
+	var endpointType = "type/" + pokemonType;
+
+	sendRequest(endpointType, function (response) {	
+		for (var i = 0; i < 10; i++) {
+			var randomIndex = getRandomInt(0, response.pokemon.length);
+			var name = response.pokemon[randomIndex].pokemon.name;
+
+			var endpointByName = "pokemon/" + name + "/";
+
+			sendRequest(endpointByName, function (response) {
+				displayCard(cardTemplate, response);
+			})
+		}
+		
+		
+	}); 
+});
+
 $('#remove').on("click", function() {
-	$('#cardsBoard').remove();
+	$('.cartaPokemon').remove();
 })
 
 
