@@ -113,6 +113,7 @@ $('#invoke').on("click", function() {
 $('#remove').on("click", function() {
 	$('.cartaPokemon').remove();
 	$('#remove').addClass('hide');
+	$('#containerPokeball').removeClass('hide');
 })
 
 

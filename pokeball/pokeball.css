@@ -1,12 +1,10 @@
 /* pokeball/pokeball.css */
 #containerPokeball {
-	border: solid black;
 	display: flex;
 	justify-content: center;
 }
 
 canvas {
-
     display: relative;
     width: auto !important;
     height: 200px !important;
