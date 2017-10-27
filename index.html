@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Styles -->
-    <link href="css/bulma.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="pokeball/pokeball.css" rel="stylesheet">
    
@@ -26,13 +26,23 @@
         
         <!-- SEARCH PANEL -->
 	        <nav>
-	            <input id="id" type="text" placeholder="introduce pokemon ID"/> 
-	            <button id="id_button" type="submit" class="btn btn-default">GET POKEMON</button>
-
-	            <input id="type" placeholder="introduce pokemon type" />
-	            <button id="type_button" type="submit" class="btn btn-default">GET POKEMON TYPES</button>
-
-	            <a id="remove" class="button is-danger">Remove</a>
+	        	
+		        	<div class="row">
+					    <div class="six columns">
+					      <label for="pokemonbyNameorId">Get a Pokemon</label>
+					      <input class="u-full-width" type="text" placeholder="Charmander, Pikachu ... or any number till 700" id="id">
+					    </div>
+					    <div class="six columns">
+					      <label for="exampleRecipientInput">Get 10 pokemons by type</label>
+					      <select class="u-full-width" id="type">
+					        <option value="">Select a type</option>
+					        <option value="normal">Normal</option>
+					        <option value="poison">Poison</option>
+					      </select>
+					    </div>
+				    </div>
+					<button class="button-primary" id="invoke">Invoke</button>
+				
 	        </nav>
     </header>
 
@@ -43,7 +53,7 @@
 
 
 	    	</div>
-	    	
+	    	<button id="remove" class="hide button-primary">Save yours Pokemons in your Pokeball</button>
 	    </article>
     	
     <!-- 3D Pokeball -->	
