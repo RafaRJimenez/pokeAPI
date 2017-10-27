@@ -5,30 +5,33 @@
     background-position: center; 
     height: 200px;
 }
-.done {
-	background-color: blue;
-}
 
 #cardsBoard {
 	display: block;
+	background-color: #fcf7f4;
 }	
 
 .cartaPokemon {
-	width: 100px;
+	width: 175px;
 	display: inline-grid;
-	background-color: #42b6f4;
+	padding: 0.5em;
+	border: 0.5em solid #FBC002;
+	border-radius: 110px;
+	background-color: #9CE99E;
+	text-align: center;
+	margin-bottom: 1em;
+	margin-right: 1em;
 }
 
 .loadAnimation {
 	width: 100px;
 	display: inline-grid;
-	background-color: #42b6f4;
+	background-color: #fcf7f4;
 }
 
 .tittle
 {
   z-index: +1;
-
 }
 
 .hide {

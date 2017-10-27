@@ -22,8 +22,10 @@ var tpmlCard = "<div id='{{id}}' class='cartaPokemon'>" +
 						"<figure class='containerImage'>" + 
 							"<img src='{{sprites.front_default}}'/>" +
 						"</figure>" + 
-						"<h2>Numero {{id}}</h2>" +
-					 	"<h1>I am: {{ name }}</h1>" +
+						"<h5>{{ id }} ~ {{ name }}</h5>" +
+					 	"<h6>{{#types}}{{#type}}" +
+					 	"<strong>{{name}} </strong>" +
+					 	"{{/type}}{{/types}}</h6>" +
 					"</div>";
 var tpmlLoading = "<div id='id' class='loadAnimation'>" +
 						"<img src='img/ajax-loader.gif'/>" +
@@ -109,11 +111,10 @@ $('#invoke').on("click", function() {
 	}	
 });
 
-//Press botton Save Pokemons
+//Press botton to Save Pokemons
 $('#remove').on("click", function() {
 	$('.cartaPokemon').remove();
 	$('#remove').addClass('hide');
-	$('#containerPokeball').removeClass('hide');
 })
 
 
