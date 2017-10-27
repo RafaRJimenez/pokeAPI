@@ -8,7 +8,7 @@
 // 		A-Invoke Pokemos Button
 // 		B-Remove Pokemos Button
 // 		
-// This is a project for educational purpose to practice to open API
+// This is a project for educational purpose to practice open API
 // 
 // Courtesy Paco Padilla
 //~~~~~~~~~~~~~~~~~~~~~~		
