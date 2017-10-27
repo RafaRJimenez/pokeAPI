@@ -12,3 +12,32 @@
 	display: inline-grid;
 	background-color: #42b6f4;
 }
+
+.loadAnimation {
+	width: 100px;
+	display: inline-grid;
+	background-color: #42b6f4;
+}
+
+.Rotate-90
+{
+  z-index: -1;
+
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+ 
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+ 
+  font-size: 40px;
+  background: #e0e0e0;
+  width: 100px;
+  position: relative;
+  top: 50px;
+}
