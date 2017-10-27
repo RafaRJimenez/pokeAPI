@@ -11,7 +11,7 @@ var tpmlCard = "<div id='{{id}}' class='cartaPokemon'>" +
 					 	"<h1>I am: {{ name }}</h1>" +
 					"</div>";
 var tpmlLoading = "<div id='id' class='loadAnimation'>" +
-						"<img src='ajax-loader.gif'/>" +
+						"<img src='img/ajax-loader.gif'/>" +
 					"</div>";
 
 //HELPERS
@@ -99,9 +99,7 @@ $('#invoke').on("click", function() {
 				})
 			}
 		}); 
-	}
-
-	
+	}	
 });
 
 //Press botton Save Pokemons
