@@ -1,4 +1,19 @@
+//js/index.js
+//
+//~~~ DOCUMENTATION ~~~
+// 1-Global Variables
+// 2-Templates
+// 3-Read API by AJAX
+// 4-Events
+// 		A-Invoke Pokemos Button
+// 		B-Remove Pokemos Button
+// 		
+// This is a project for educational purpose to practice to open API
+// 
+// Courtesy Paco Padilla
+//~~~~~~~~~~~~~~~~~~~~~~		
 
+	 	
 //GLOBAL VARIABLES
 var rootAPI= 'http://pokeapi.salestock.net/api/v2/';
 
@@ -28,11 +43,6 @@ function removeLoadAnimation() {
 	$('.loadAnimation').remove();
 }
 
-
-
-
-
-
 //READ API
 function sendRequest(endpoint, successFunction) {
 	$.ajax({
@@ -59,9 +69,6 @@ function sendRequest(endpoint, successFunction) {
 		
 	});
 };
-
-
-
 
 //EVENTS
 //Press botton invoke
