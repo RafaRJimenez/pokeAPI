@@ -5,10 +5,10 @@
 
 #cardsBoard {
 	display: block;
-	width: 100%;
-}
+}	
 
-.cartapokemon {
-	width: 280px;
+.cartaPokemon {
+	width: 100px;
 	display: inline-grid;
+	background-color: #42b6f4;
 }
