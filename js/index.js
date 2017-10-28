@@ -15,7 +15,11 @@
 
 	 	
 //GLOBAL VARIABLES
-var rootAPI= 'http://pokeapi.salestock.net/api/v2/';
+//https://pokeapi.co/api/v2/
+//http://pokeapi.salestock.net/api/v2/
+//https://cors.now.sh/https://pokeapi.co/api/v2/
+var rootAPI= 'https://pokeapi.co/api/v2/';
+
 
 //TEMPLATES
 var tpmlCard = "<div id='{{id}}' class='cartaPokemon'>" +
@@ -51,6 +55,7 @@ function sendRequest(endpoint, successFunction) {
 		url: rootAPI + endpoint,
 		dataType: 'json',
 		crossDomain: true,
+		method: 'GET',
 		success: successFunction,
 		beforeSend: function(jqXHR, settings) {
 						console.log("#beforeSend execute#" + '\n' +
