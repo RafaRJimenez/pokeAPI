@@ -90,7 +90,7 @@ $('#invoke').on("click", function() {
 		sendRequest("pokemon/pikachu/", function (response) {
 			displayTemplate(tpmlCard, response);
 		});
-	}else{
+	}else if (vId !== "") {
 		var endpoint = "pokemon/" + vId + "/";
 		sendRequest(endpoint, function (response) {
 	    	displayTemplate(tpmlCard, response);
