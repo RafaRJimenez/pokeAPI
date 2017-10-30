@@ -1,0 +1,610 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"tmpl",
+				"tpmlCard"
+			],
+			[
+				"get",
+				"getRandomInt"
+			],
+			[
+				"remove",
+				"removeLoadAnimation"
+			],
+			[
+				"load",
+				"loadAnimation"
+			],
+			[
+				"in",
+				"inline-grid"
+			],
+			[
+				"inli",
+				"inline-grid"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wra",
+				"flex-wrap"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"w",
+				"innerWidth"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"import",
+				"import\tkeyword"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"bal",
+				"background-color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"dat",
+				"date_create"
+			],
+			[
+				"Auth",
+				"Auth::attempt\tInitiate an Authentication attempt"
+			],
+			[
+				"Route",
+				"Route::put\tBasic Put Route."
+			],
+			[
+				"Data",
+				"DatabaseMigrations"
+			],
+			[
+				"submit",
+				"submit"
+			],
+			[
+				"age",
+				"age"
+			],
+			[
+				"ti",
+				"title\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2056,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/index.js",
+			"settings":
+			{
+				"buffer_size": 3048,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "index.js"
+			}
+		},
+		{
+			"file": "css/index.css",
+			"settings":
+			{
+				"buffer_size": 569,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "index.css"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 446.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"vue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"@cannot",
+				"Snippet: Blade @cannot"
+			],
+			[
+				"snippet:",
+				"Snippet: Blade @can"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Disable Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa:ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 631.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/pokeAPI",
+		"/C/wamp64/www/pokeAPI/css",
+		"/C/wamp64/www/pokeAPI/js",
+		"/C/wamp64/www/pokeAPI/pokeball"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/pokeAPI/css/index.css",
+		"/C/wamp64/www/pokeAPI/js/OrbitControls.js",
+		"/C/wamp64/www/pokeAPI/js/plantilla.html",
+		"/C/wamp64/www/pokeAPI/index.html",
+		"/C/wamp64/www/pokeAPI/pokeball/pokeball.css",
+		"/C/wamp64/www/pokeAPI/loading/loading.js",
+		"/C/wamp64/www/pokeAPI/loading/loading.css",
+		"/C/wamp64/www/pokeAPI/pokeball/pokeball.js",
+		"/C/wamp64/www/pokeAPI/js/jquery-3.2.1.min.js",
+		"/C/wamp64/www/pokeAPI/js/mustache.js",
+		"/C/wamp64/www/pokeAPI/js/mustache.min.js",
+		"/C/wamp64/www/pokeAPI/js/handlebars-v4.0.11.js",
+		"/C/wamp64/www/pokeAPI/js/plantilla.js",
+		"/C/wamp64/www/ngLogotype/package-lock.json",
+		"/C/wamp64/www/ngLogotype/docs/index.html",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/services/image.service.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/gallery/image-list/image.component.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/gallery/image-list/image-list.component.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/gallery/gallery.component.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/app.module.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/gallery/image-list/image-list.component.html",
+		"/C/wamp64/www/ngLogotype/src/app/delete.component.ts",
+		"/C/wamp64/www/ngLogotype/src/app/nav-bar/nav-bar.component.html",
+		"/C/wamp64/www/ngLogotype/src/app/models/image.ts",
+		"/C/wamp64/www/ngLogotype/src/app/services/image.service.ts",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/image-detail/image-detail.component.html",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/image-list/image-list.component.html",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/image-list/image.component.html",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/image-list/image.component.ts",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/image-list/image-list.component.ts",
+		"/C/wamp64/www/ngLogotype/src/app/app.module.ts",
+		"/C/wamp64/www/ngLogotype/src/index.html",
+		"/C/wamp64/www/ngLogotype/src/app/app.routes.ts",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/gallery.component.html",
+		"/C/wamp64/www/ngLogotype/package.json",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/image-detail/image-detail.component.ts",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/gallery.component.spec.ts",
+		"/C/wamp64/www/ngLogotype/src/app/gallery/gallery.component.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/karma.conf.js",
+		"/C/Users/paco_/Desktop/Logotype-ng/.angular-cli.json",
+		"/C/Users/paco_/Desktop/Logotype-ng/package.json",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/models/image.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/index.html",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/gallery/image-list/image.component.html",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/services/image.service.spec.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/app.routes.ts",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/gallery/gallery.component.html",
+		"/C/Users/paco_/Desktop/Logotype-ng/src/app/admin-image-create/admin-image-create.component.html",
+		"/C/wamp64/www/nggallery/src/app/admin/admin-images-list/admin-images-list.component.html",
+		"/C/wamp64/www/nggallery/src/app/admin/admin-images-list/admin-images-list.component.ts",
+		"/C/wamp64/www/nggallery/src/app/admin/dashboard.component.html",
+		"/C/wamp64/www/nggallery/src/app/app.module.ts",
+		"/C/wamp64/www/nggallery/src/index.html",
+		"/C/wamp64/www/nggallery/src/app/app.component.html",
+		"/C/wamp64/www/nggallery/src/app/admin/admin.component.html",
+		"/C/wamp64/www/nggallery/src/app/services/image.service.ts",
+		"/C/wamp64/www/nggallery/src/app/app.routes.ts",
+		"/C/wamp64/www/nggallery/src/main.ts",
+		"/C/wamp64/www/nggallery/package.json",
+		"/C/wamp64/www/nggallery/src/app/admin/admin.routes.ts",
+		"/C/wamp64/www/nggallery/src/app/admin/admin-image-edit/admin-image-edit.component.ts",
+		"/C/wamp64/www/nggallery/src/app/models/image.ts",
+		"/C/wamp64/www/laravel/cursoangular/app/Http/Controllers/ImagesController.php",
+		"/C/wamp64/www/nggallery/src/app/admin/admin-image-edit/admin-image-edit.component.css",
+		"/C/wamp64/www/nggallery/src/app/admin/admin-image-edit/admin-image-edit.component.html",
+		"/C/Users/paco_/Desktop/Logotype-ng/README.md",
+		"/C/wamp64/www/nggallery/src/app/admin-image-create/admin-image-create.component.html",
+		"/C/wamp64/www/nggallery/src/app/admin-image-create/admin-image-create.component.ts",
+		"/C/wamp64/www/nggallery/src/app/navbar.component.html",
+		"/C/Users/paco_/vagrant_getting_started/Homestead/Homestead.yaml",
+		"/C/wamp64/www/nggallery/src/app/gallery/image-detail/image-detail.component.css",
+		"/C/wamp64/www/nggallery/src/app/gallery/gallery.component.css",
+		"/C/wamp64/www/nggallery/src/app/gallery/gallery.component.html",
+		"/C/Users/paco_/Desktop/TypeScript/mi-nuevo-proyecto-angular/src/app/app.module.ts",
+		"/C/Users/paco_/Desktop/TypeScript/mi-nuevo-proyecto-angular/src/app/app.component.css",
+		"/C/Users/paco_/Desktop/TypeScript/mi-nuevo-proyecto-angular/package.json",
+		"/C/Users/paco_/Desktop/TypeScript/mi-nuevo-proyecto-angular/tslint.json",
+		"/C/Users/paco_/Desktop/TypeScript/mi-nuevo-proyecto-angular/src/index.html",
+		"/C/Users/paco_/Desktop/TypeScript/mi-nuevo-proyecto-angular/.angular-cli.json",
+		"/C/Users/paco_/Desktop/TypeScript/mi-nuevo-proyecto-angular/README.md",
+		"/C/Users/paco_/Desktop/TypeScript/mi-nuevo-proyecto-angular/.editorconfig",
+		"/C/Users/paco_/Desktop/TypeScript/greeter.ts",
+		"/C/Users/paco_/Desktop/TypeScript/greeter.js",
+		"/C/wamp64/www/laravel-vue-crud-master/package.json",
+		"/C/wamp64/www/laravel/testing/resources/assets/js/app.js",
+		"/C/wamp64/www/laravel/testing/node_modules/laravel-mix/setup/webpack.mix.js",
+		"/C/wamp64/www/laravel/testing/node_modules/laravel-mix/setup/webpack.config.js",
+		"/C/Users/paco_/my_scripts/yo",
+		"/C/Users/paco_/Documents/GitHub/Homestead/Homestead.yaml",
+		"/C/Users/paco_/Desktop/UTC--2017-10-05T21-56-05.422Z--1fa0a9ad72d9f7747c08709aa145bffec49f15de",
+		"/C/Users/paco_/Desktop/UTC--2017-10-05T22-02-37.220Z--1fa0a9ad72d9f7747c08709aa145bffec49f15de",
+		"/C/wamp64/www/my-project/js/materialize.min.js",
+		"/C/wamp64/www/hello-vue/src/main.js",
+		"/C/wamp64/www/hello-vue/index.html",
+		"/C/wamp64/www/hello-vue/webpack.config.js",
+		"/C/wamp64/www/hello-vue/README.md",
+		"/C/wamp64/www/hello-vue/package.json",
+		"/C/wamp64/www/hello-vue/.gitignore",
+		"/C/wamp64/www/hello-vue/.babelrc",
+		"/C/wamp64/www/laravel/vuejs-test/package.json",
+		"/C/wamp64/www/BandsApp-VueJS/dist/print.bundle.js",
+		"/C/wamp64/www/BandsApp-VueJS/dist/manifest.json",
+		"/C/wamp64/www/BandsApp-VueJS/dist/app.bundle.js",
+		"/C/wamp64/www/BandsApp-VueJS/webpack.config.js",
+		"/C/wamp64/www/BandsApp-VueJS/dist/index.html",
+		"/C/wamp64/www/BandsApp-VueJS/src/app.js",
+		"/C/wamp64/www/BandsApp-VueJS/package.json",
+		"/C/wamp64/www/BandsApp-VueJS/.gitignore",
+		"/C/wamp64/www/BandsApp-VueJS/src/print.js",
+		"/C/wamp64/www/BandsApp-VueJS/dist/1dd5e3c95ec30fadd2c6713f603c0d30.jpg",
+		"/C/wamp64/www/BandsApp-VueJS/src/style.css",
+		"/C/wamp64/www/BandsApp-VueJS/src/data.json",
+		"/C/wamp64/www/BandsApp-VueJS/src/font1.woff2",
+		"/C/wamp64/www/BandsApp-VueJS/dist/bundle.js",
+		"/C/wamp64/www/BandsApp-VueJS/index.html",
+		"/C/wamp64/www/BandsApp-VueJS/app.js",
+		"/C/wamp64/www/BandsApp-VueJS/node_modules/jquery/package.json",
+		"/C/Users/paco_/Documents/GitHub/Homestead/scripts/homestead.rb",
+		"/C/Users/paco_/Desktop/index.html",
+		"/C/Users/paco_/Documents/GitHub/Homestead/Vagrantfile",
+		"/C/Users/paco_/Desktop/quickstart/composer.json",
+		"/C/wamp64/www/laravel/foro/config/database.php",
+		"/C/wamp64/www/laravel/foro/tests/features/ExampleTest.php",
+		"/C/wamp64/www/laravel/foro/.env.codeship",
+		"/C/wamp64/www/laravel/foro/.env",
+		"/C/wamp64/www/laravel/foro/composer.json",
+		"/C/wamp64/www/laravel/foro/tests/TestCase.php",
+		"/C/wamp64/www/laravel/foro/tests/FeatureTestCase.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 169.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"66deg",
+			"90deg",
+			"canvas",
+			"container"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"containerPokeball"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_name": "index.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.css",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.366452367037,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pokeapi.sublime-project",
+	"replace":
+	{
+		"height": 59.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"env",
+				"vendor\\league\\commonmark\\src\\Environment.php"
+			],
+			[
+				"envi",
+				"vendor\\league\\commonmark\\src\\Environment.php"
+			],
+			[
+				"testexa",
+				"tests\\ExampleTest.php"
+			],
+			[
+				"envio",
+				"vendor\\league\\commonmark\\src\\Environment.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
