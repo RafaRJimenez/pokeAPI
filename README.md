@@ -11,5 +11,5 @@ Display data from one API Rest ful with AJAX
 - [x] Add one 3D canvas model with three.JS and OrbitControls.JS
 - [x] Make a responsive grid just with CSS, (working properly on desktop)
 - [x] Improve UX loading an animation when any data is requested.
-- [] Improve Perfomance: Use local storage to improve performance
-- [] Improve Perfomance: Do just one request to show ten cards by type.
+- [ ] Improve Perfomance: Use local storage to improve performance
+- [ ] Improve Perfomance: Do just one request to show ten cards by type.
