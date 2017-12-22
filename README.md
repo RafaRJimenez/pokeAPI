@@ -1,3 +1,6 @@
+ESTA ES LA LINEA DE CODIGO QUE añado! Feliz Navidad Rafa! ESto es un pull request de un fork a fork, pero teoria no se hace asi, sino de pc a proyecto. 
+
+
 # pokeAPI
 Display data from one API Rest ful with AJAX
 
