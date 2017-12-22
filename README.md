@@ -16,3 +16,4 @@ Display data from one API Rest ful with AJAX
 - [x] Improve UX loading an animation when any data is requested.
 - [ ] Improve Perfomance: Use local storage to improve performance
 - [ ] Improve Perfomance: Do just one request to show ten cards by type.
+- [ ] Set predictive search to speed up pokemon´s identification.
